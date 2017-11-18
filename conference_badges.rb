@@ -20,5 +20,5 @@ def assign_rooms(names)
     welcome = "Hello, #{name}! You'll be assigned to room #{index + 1}!"
     welcomes.push(welcome)
   end
-  return welcome
+  return welcomes
 end
