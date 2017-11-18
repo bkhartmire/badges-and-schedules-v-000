@@ -11,4 +11,5 @@ def batch_badge_creator(names)
     badge = badge_maker(name)
     badges.push(badge)
   end
+  return badges
 end
